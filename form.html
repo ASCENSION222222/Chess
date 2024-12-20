@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./styles/formstyle.css" />
+        <title>Шаховий гурток</title>
+    </head>
+    <body>
+        <header>
+            <img src="/images/logo.png" alt="Логотип Шахового гуртка">
+        </header>
+
+        <main>
+            <h2>Форма для запису на шахи</h2>
+            <form id="chess-form">
+                <label for="name">Як вас звати:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="age">Скільки вам років:</label>
+                <input type="number" id="age" name="age" required>
+
+                <label for="level">Напишіть ваш рівень гри:</label>
+                <input type="text" id="level" name="level" required>
+
+                <label for="phone">Номер телефону:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="email">Електронна пошта:</label>
+                <input type="email" id="email" name="email" required>
+
+                <button type="submit">Записатися</button>
+
+                <div id="success-message" style="display: none;">
+                    <span class="success-icon">&#10004;</span> Записано!
+                </div>
+            </form>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Шаховий гурток. Всі права захищені.</p>
+        </footer>
+
+        <script src="/JS/script.js"></script>
+    </body>
+</html>

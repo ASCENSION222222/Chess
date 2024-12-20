@@ -1,0 +1,147 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2c3e50;
+    color: #ecf0f1;
+}
+
+header {
+    background-color: #34495e;
+    padding: 1rem;
+    text-align: center;
+}
+
+header img {
+    max-width: 150px;
+}
+
+.hero {
+    text-align: center;
+    padding: 2rem 1rem;
+    background: linear-gradient(135deg, #2980b9, #6dd5fa);
+    color: white;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    margin: 0.5rem 0;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.news, .advantages {
+    padding: 2rem 1rem;
+    background-color: #34495e;
+    margin: 1rem 0;
+    border-radius: 8px;
+}
+
+.news h2, .advantages h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.news ul {
+    list-style: none;
+    padding: 0;
+}
+
+.news li {
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid #7f8c8d;
+    padding-bottom: 1rem;
+    position: relative;
+}
+
+.news h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #1abc9c;
+}
+
+.news img.ding {
+    display: block;
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    filter: brightness(0.5);
+}
+
+.news li .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.advantages-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.advantage {
+    background-color: #2c3e50;
+    padding: 1rem;
+    border: 1px solid #1abc9c;
+    border-radius: 8px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.advantage h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #1abc9c;
+}
+
+.advantage p {
+    font-size: 1rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #34495e;
+    font-size: 0.9rem;
+    color: #bdc3c7;
+}
+
+.registration-section a {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #ffffff; /* Білий фон кнопки */
+    color: #34495e; /* Текст темно-синій */
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    margin-top: 10px; /* Відступ зверху */
+    margin-bottom: 10px; /* Відступ знизу */
+    text-align: center;
+}
+
+.registration-section a:hover {
+    transform: scale(1.1);
+    background-color: #ecf0f1; /* Легкий сірий відтінок при наведенні */
+    color: #34495e; /* Текст залишається темно-синім */
+}
+
+.registration-section {
+    display: flex;
+    justify-content: center; /* Центрує вміст по горизонталі */
+    align-items: center; /* Центрує вміст по вертикалі */
+    flex-direction: column; /* Вертикальне розміщення елементів */
+    margin-top: 10px; /* Відступ зверху */
+}
